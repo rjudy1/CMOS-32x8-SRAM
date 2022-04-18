@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rachaelj
+HostName                       barnabas.cedarville.edu
+ProcessIdentifier              25409
+ProcessCreationTime_UTC        1647350776
+ProcessCreationTime_Readable   Tue Mar 15 09:26:16 2022 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/rachaelj/Lab4250/nand3_tb/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Tue Mar 15 09:31:17 2022 EDT
