@@ -26,16 +26,16 @@ filter_res \
 	 -min_res 0.001
 input_db -type pvs \
 	 -design_cell_name "sram_32x8 layout Lab4250" \
-	 -directory_name "/home/rachaelj/runfiles/write_driver_compact/lvs/svdb" \
+	 -directory_name "/home/rachaelj/runfiles/sram_32x8/lvs/svdb" \
 	 -format "DFII" \
 	 -run_name "sram_32x8"
 log_file \
-	 -file_name "/home/rachaelj/runfiles/write_driver_compact/lvs/svdb/qrc.sram_32x8.log"
+	 -file_name "/home/rachaelj/runfiles/sram_32x8/lvs/svdb/qrc.sram_32x8.log"
 output_db -type extracted_view \
 	 -cap_component "pcapacitor" \
 	 -cap_property_name "c" \
 	 -cdl_out_map_directory \
-		"/home/rachaelj/runfiles/write_driver_compact/lvs" \
+		"/home/rachaelj/runfiles/sram_32x8/lvs" \
 	 -device_finger_delimiter "@" \
 	 -enable_cellview_check false \
 	 -include_cap_model "false" \
@@ -46,7 +46,7 @@ output_db -type extracted_view \
 	 -res_property_name "r" \
 	 -view_name "av_extracted"
 output_setup \
-	 -directory_name "/tmp/qrc_37933" \
+	 -directory_name "/tmp/qrc_54777" \
 	 -temporary_directory_name "sram_32x8"
 process_technology \
 	 -technology_corner \
