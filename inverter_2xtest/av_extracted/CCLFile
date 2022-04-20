@@ -25,17 +25,17 @@ filter_res \
 	 -merge_parallel_res false \
 	 -min_res 0.001
 input_db -type pvs \
-	 -design_cell_name "inverter_2x layout Lab4250" \
-	 -directory_name "/home/rachaelj/runfiles/inverter_2x/lvs/svdb" \
+	 -design_cell_name "inverter_2xtest layout Lab4250" \
+	 -directory_name "/home/rachaelj/runfiles/inverter_2xtest/lvs/svdb" \
 	 -format "DFII" \
-	 -run_name "inverter_2x"
+	 -run_name "inverter_2xtest"
 log_file \
-	 -file_name "/home/rachaelj/runfiles/inverter_2x/lvs/svdb/qrc.inverter_2x.log"
+	 -file_name "/home/rachaelj/runfiles/inverter_2xtest/lvs/svdb/qrc.inverter_2xtest.log"
 output_db -type extracted_view \
 	 -cap_component "pcapacitor" \
 	 -cap_property_name "c" \
 	 -cdl_out_map_directory \
-		"/home/rachaelj/runfiles/inverter_2x/lvs" \
+		"/home/rachaelj/runfiles/inverter_2xtest/lvs" \
 	 -device_finger_delimiter "@" \
 	 -enable_cellview_check false \
 	 -include_cap_model "false" \
@@ -46,8 +46,8 @@ output_db -type extracted_view \
 	 -res_property_name "r" \
 	 -view_name "av_extracted"
 output_setup \
-	 -directory_name "/tmp/qrc_127504" \
-	 -temporary_directory_name "inverter_2x"
+	 -directory_name "/tmp/qrc_1233" \
+	 -temporary_directory_name "inverter_2xtest"
 process_technology \
 	 -technology_corner \
 		"rcx_typical" \

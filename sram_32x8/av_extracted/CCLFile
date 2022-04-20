@@ -46,11 +46,11 @@ output_db -type extracted_view \
 	 -res_property_name "r" \
 	 -view_name "av_extracted"
 output_setup \
-	 -directory_name "/tmp/qrc_105385" \
+	 -directory_name "/tmp/qrc_37933" \
 	 -temporary_directory_name "sram_32x8"
 process_technology \
 	 -technology_corner \
-		"rcx_typical" \
+		"rcx_best" \
 	 -technology_library_file "/opt/cadence/PDK/gpdk045_v_5_0/pvtech.lib" \
 	 -technology_name "gpdk045_pvs" \
 	 -temperature \
